@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb on off</title>
+</head>
+
+<body>
+    <!-- <div>
+        <button type="button" onclick="bulbOn()">switch on</button>
+        <img id="bulb" src="images/pic_bulboff.gif" alt="">
+        <button type="button" onclick="bulbOff()">switch off</button>
+    </div> -->
+    <div>
+        <button type="button" onclick="document.getElementById('bulb').src='images/pic_bulbon.gif'">switch on</button>
+
+        <img id="bulb" src="images/pic_bulboff.gif" alt="">
+
+        <button type="button" onclick="document.getElementById('bulb').src='images/pic_bulboff.gif'">switch off</button>
+    </div>
+
+
+
+    <!-- <script>
+        function bulbOn() {
+            document.getElementById('bulb').src = 'images/pic_bulbon.gif';
+        }
+
+        function bulbOff() {
+            document.getElementById('bulb').src = 'images/pic_bulboff.gif';
+        }
+    </script> -->
+</body>
+
+</html>
